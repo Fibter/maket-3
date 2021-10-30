@@ -1,0 +1,231 @@
+* { 
+    box-sizing: border-box;
+}       
+
+body {  
+    font-family: 'Graphik LCG', sans-serif;
+}
+
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('fonts/subset-GraphikLCG-Regular.eot');
+    src: url('fonts/subset-GraphikLCG-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/subset-GraphikLCG-Regular.woff2') format('woff2'),
+        url('fonts/subset-GraphikLCG-Regular.woff') format('woff'),
+        url('fonts/subset-GraphikLCG-Regular.ttf') format('truetype'),
+        url('fonts/subset-GraphikLCG-Regular.svg#GraphikLCG-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('fonts/subset-GraphikLCG-Semibold.eot');
+    src: url('fonts/subset-GraphikLCG-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/subset-GraphikLCG-Semibold.woff2') format('woff2'),
+        url('fonts/subset-GraphikLCG-Semibold.woff') format('woff'),
+        url('fonts/subset-GraphikLCG-Semibold.ttf') format('truetype'),
+        url('fonts/subset-GraphikLCG-Semibold.svg#GraphikLCG-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}   
+
+.container {    
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto; 
+}   
+
+.list-title { 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background: #FFFFFF;
+}   
+
+.list-text {    
+    display: block;
+    text-decoration: none;
+    margin-right: 57px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+    padding-top: 39px;
+}
+
+.list-link-control-first {  
+    margin-left: auto;
+    padding-top: 25px;
+}   
+
+.image {    
+    margin: 0 51px;
+    padding-top: 34px;
+}   
+
+.btn {  
+    width: 120px;
+    height: 45px;
+    font-family: 'Graphik LCG', sans-serif;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 0px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+
+
+.btn-second  {  
+    font-family: 'Graphik LCG', sans-serif;
+    background-color: #FF6336;
+    border-radius: 0px;
+    width: 120px;
+    height: 45px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.list-link-control {    
+    padding-top: 25px;
+    margin: 0 51px 0 10px;
+}
+
+.list {   
+    padding-bottom: 165px;
+}   
+
+.wrap-first {  
+    display: flex;
+    flex-direction: column ;   
+}   
+
+
+
+.pic {  
+    width: 759px;
+    height: 529px;
+    margin-right: 67px;
+    margin-top: 22px;
+}
+
+.slogan {   
+    width: 552px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 70px;
+    color: #000000;
+    margin-left: 75px;
+}
+
+.wrap {  
+    display: flex;
+    flex-direction: row;
+}   
+
+.slogan-small { 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 35px;
+    color: #000000;
+    width: 471px;
+    margin: 51px 0 50px 75px;
+}
+
+.search {   
+    display: flex;
+    flex-direction: row;
+}   
+
+.search-first { 
+    font-family: 'Graphik LCG', sans-serif;
+    width: 160px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #FF6336;
+    border-radius: 0px;
+    margin-left: 75px;
+    margin-right: 10px;
+}
+
+.search-second {   
+    font-family: 'Graphik LCG', sans-serif;
+    width: 160px; 
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 0px;
+}
+
+.text { 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    margin-left: 75px;
+    margin-top: 25px;
+    padding-bottom: 172px;
+}   
+
+.title {    
+    background-color: #FF9C7D;
+}   
+
+.wrap-desc {    
+    display: flex;  
+    flex-direction: row;    
+    justify-content: center;
+}
+
+.desc { 
+    width: 720px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+    padding-top: 108px;
+    padding-bottom: 82px;
+}   
+
+.icon-wrap { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}   
+
+.icon-pic { 
+    padding-bottom: 104px;
+    margin-right: 103px;
+}
+
+
+
+
+
