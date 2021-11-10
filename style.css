@@ -54,7 +54,7 @@ body {
     font-size: 15px;
     line-height: 20px;
     color: #000000;
-    padding-top: 39px;
+    margin-top: 39px;
 }
 
 .list-link-control-first {  
@@ -64,6 +64,7 @@ body {
 
 .image {    
     padding-top: 34px;
+    margin-right: 51px;
 }   
 
 .btn {  
@@ -221,7 +222,8 @@ body {
 .icon-pic { 
     padding-bottom: 104px;
     margin-right: 103px;
-}       
+}    
+
 
 .wrapper {  
     display: flex;
@@ -261,6 +263,7 @@ body {
     line-height: 30px;
     color: #000000; 
     text-decoration: none;
+    width: 96px;
 }   
 
 .title-pic {  
