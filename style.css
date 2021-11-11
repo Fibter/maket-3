@@ -96,6 +96,8 @@ body {
     line-height: 45px;
     text-align: center;
     color: #FFFFFF;
+    border: none;
+    
 }
 
 .list-link-control {    
@@ -163,6 +165,7 @@ body {
     background-color: #FF6336;
     border-radius: 0px;
     margin-right: 10px;
+    border: none;
 }
 
 .search-second {   
