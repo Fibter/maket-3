@@ -182,6 +182,7 @@ body {
     border: 1px solid rgba(0, 0, 0, 0.5);
     box-sizing: border-box;
     border-radius: 0px;
+    background-color: white ;
 }
 
 .text { 
@@ -557,6 +558,7 @@ body {
     color: #FFFFFF; 
     margin-bottom: 162px;
     margin-top: 32px;
+    border: none;
 }   
 
 .col {  
