@@ -70,7 +70,75 @@
    .icon-pic {  
        margin-right: 40px;
        padding-bottom: 20px;
+   }  
+   
+   .title { 
+       margin-bottom: 30px;
    }
+
+   .title-pic{  
+       width: 60%;
+       max-width: 900px;
+       order: -1;
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: 0;
+       padding-bottom: 10px;
+   }        
+
+   .title-caption { 
+       width: auto;
+       line-height: 45px;
+       text-align: center;
+   }    
+
+   .title-item {    
+       width: auto;
+       text-align: center;
+       margin-bottom: 10px;
+   }    
+
+   .title-pic-left {    
+       padding-bottom: 10px;
+   }
+
+   .wrapper {   
+       flex-direction: column;
+   }    
+
+   .title-list {    
+      width: auto;
+      text-align: center;
+   }    
+
+   .wrapper-small { 
+       flex-direction: column;
+   }    
+
+   .title-pic-left {    
+    width: 60%;
+    order: -1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding-bottom: 10px;
+    padding-top: 20px;
+   }
+
+  .wrapper-first  { 
+      margin-left: 0;
+      padding-top: 20px;
+  } 
+
+  .title-pic.bottom {   
+      padding-top: 20px;
+      padding-bottom: 10px;
+  } 
+
+  .title-pic-left.last {    
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+  }
 
   
 
@@ -149,6 +217,16 @@
 
     .icon-pic { 
         margin-right: 25px;
+    }   
+
+    .title-caption {    
+        line-height: 30px;
+        font-size: 25px;
+    }   
+
+    .title-item {   
+        line-height: 20px;
+        font-size: 15px;
     }
 
 }   
