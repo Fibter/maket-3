@@ -202,6 +202,7 @@
     display: block; 
     margin-left: auto;  
     margin-right: auto;
+    padding-bottom: 10px;
   } 
 
   .box {    
@@ -214,7 +215,7 @@
   } 
 
   .image-cake { 
-      width: 50%;
+      width: 20%;
       margin-left: auto;  
       margin-right: auto;
       padding-bottom: 0;
@@ -244,6 +245,54 @@
 
   .excerpt-img {    
       width: 80%;
+  } 
+
+  .excerpt {    
+      padding-top: 25px;
+  } 
+
+  .excerpt-text.second {    
+      margin-top: 17px;
+  } 
+
+  .btn-link {   
+      margin-bottom: 25px;
+      margin-top: 20px;
+  } 
+
+  .wrap-items { 
+      flex-wrap: wrap;
+      
+  } 
+
+  .slogan-items {  
+      font-size: 20px;
+      margin-top: 20px;       
+  }     
+
+  .link-card-title {    
+      padding-top: 30px;   
+  } 
+
+  .slogan-items-small { 
+      padding-bottom: 30px;
+  } 
+
+  .wrap-copyright { 
+      margin-right: 10px;
+      margin-left: 20px;
+  }         
+
+  .link-card-title {    
+      margin-right: 20px;
+  } 
+
+  .link-card.box {  
+    width: auto;
+  } 
+
+  .link-card-title {    
+      font-size: 20px;
   }
 
 
@@ -430,6 +479,23 @@
 
     .btn-excerpt {  
         width: 100%;
+        margin-bottom: 30px;
+    }   
+
+    .btn-link { 
+        width: 100%;
+    }   
+
+    .img-items {    
+        margin-top: 10px;
+    }   
+
+    .basket-wrap {  
+        flex-wrap: wrap;
+    }   
+
+    .cart-text {    
+        width: auto;
     }
 
 }   
